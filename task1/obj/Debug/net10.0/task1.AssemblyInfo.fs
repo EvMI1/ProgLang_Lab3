@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("task1")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+452f7f32a0343d3c654a8f8f7f103eaf2d4490ff")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3bca6df7b3f72c8200e82ab3a4bcdd78e1ef5ec")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("task1")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("task1")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

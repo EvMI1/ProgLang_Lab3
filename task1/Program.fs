@@ -25,11 +25,9 @@ let inputChar() =
 
 [<EntryPoint>]
 let main _ =
-    printf "Введите размер списка: "
     let size = inputSize()
-    printf "Введите символ, который добавить к строкам: "
     let symb = inputChar()
     let sq = inputUserString size
     let new_seq = Seq.map (fun s -> s + symb) sq
-    printfn "ВВОД СТРОК И ВЫВОД ПОСЛЕДОВАТЕЛЬНОСТИ\n%A" new_seq
+    printfn "ВВОД СТРОК И ВЫВОД ПОСЛЕДОВАТЕЛЬНОСТИ\n%A" (Seq.toList new_seq)
     0
